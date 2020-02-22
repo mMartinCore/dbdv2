@@ -1,0 +1,17 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Sat 2020-02-08 23:22:43 UTC; 10min ago
+ Main PID: 13862 (mysqld)
+   Status: "Server is operational"
+    Tasks: 40 (limit: 2286)
+   Memory: 376.4M
+   CGroup: /system.slice/mysql.service
+           └─13862 /usr/sbin/mysqld
+
+Feb 08 23:22:42 localhost systemd[1]: Starting MySQL Community Server...
+Feb 08 23:22:43 localhost mysqld[13862]: 2020-02-08T23:22:43.284320Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.19-0ubuntu0.19.10.3) starting as process 13862
+Feb 08 23:22:43 localhost mysqld[13862]: 2020-02-08T23:22:43.773623Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+Feb 08 23:22:43 localhost mysqld[13862]: 2020-02-08T23:22:43.792027Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.19-0ubuntu0.19.10.3'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu).
+Feb 08 23:22:43 localhost systemd[1]: Started MySQL Community Server.
+Feb 08 23:22:43 localhost mysqld[13862]: 2020-02-08T23:22:43.963060Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+Feb 08 23:27:27 localhost mysqld[13862]: 2020-02-08T23:27:27.901989Z 11 [Warning] [MY-010056] [Server] Host name 'zg-0131a-396.stretchoid.com' could not be resolved: Name or service not known
